@@ -1,0 +1,25 @@
+@import './reset.less';
+@import './header.less';
+@import './vars.less';
+@import './matches.less';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: @color-black;
+  color: @color-white;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.m-wrapper {
+  max-width: 100%;
+  min-height: calc(100vh - 42px);
+  display: flex;
+  flex-direction: column;
+  // background-color: red;
+}
